@@ -1,17 +1,23 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-const NavBar = () => {
+const MobileNavBar = () => {
   return (
     <>
       <Navbar
         collapseOnSelect
         expand="lg"
         data-bs-theme="dark"
-        className="bg-dark"
+        className="bg-dark d-lg-none"
       >
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Brand href="#home" className="text-center">
-            React-Bootstrap
+          <Navbar.Brand href="#home">
+            <img
+              src="/public/logos/music.svg"
+              width="80"
+              height="30"
+              className="d-inline-block align-top logo-white"
+              alt="Logo apple Music"
+            />
           </Navbar.Brand>
           <Nav.Link href="#accedi" className="text-danger">
             Accedi
@@ -30,4 +36,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default MobileNavBar;
