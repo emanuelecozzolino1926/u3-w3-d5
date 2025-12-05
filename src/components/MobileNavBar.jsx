@@ -12,7 +12,7 @@ const MobileNavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Brand href="#home">
             <img
-              src="/public/logos/music.svg"
+              src="/logos/music.svg"
               width="80"
               height="30"
               className="d-inline-block align-top logo-white"
