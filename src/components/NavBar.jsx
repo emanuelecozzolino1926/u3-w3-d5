@@ -44,7 +44,19 @@ const NavBar = () => {
           </Nav.Link>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#Cerco">Cerca</Nav.Link>
+              <InputGroup className="mt-3 text-white">
+                <InputGroup.Text
+                  id="basic-addon1"
+                  className="bg-dark border-end-0"
+                >
+                  <i class="bi bi-search text-danger"></i>
+                </InputGroup.Text>
+                <Form.Control
+                  placeholder="Ricerca"
+                  aria-describedby="basic-addon1"
+                  className="bg-dark text-white border-start-0 p-0"
+                />
+              </InputGroup>
               <Nav.Link href="#Home">Home</Nav.Link>
               <Nav.Link href="#nov">Novità</Nav.Link>
               <Nav.Link href="#Radio">Radio</Nav.Link>
