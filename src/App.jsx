@@ -4,6 +4,7 @@ import "./App.css";
 import MobileNavBar from "./components/MobileNavBar";
 import NoveltySec from "./components/NoveltySec";
 import NewRadio from "./components/NewRadio.";
+import OtherSec from "./components/OtherSec";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MobileNavBar />
       <NoveltySec />
       <NewRadio />
+      <OtherSec />
     </>
   );
 }

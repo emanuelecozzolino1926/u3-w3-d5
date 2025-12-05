@@ -1,3 +1,14 @@
+body,
+html,
+#root {
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
+
+.card-bg {
+  background-color: #1f1f1f;
+}
+
 .logo-white {
   filter: brightness(0) invert(1);
 }

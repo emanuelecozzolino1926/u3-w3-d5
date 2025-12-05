@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const NoveltySec = () => {
   return (
     <>
-      <Container fluid className="my-3">
+      <Container fluid className="my-3 text-white">
         <h1>Novità</h1>
         <hr />
         <Row xs={2} className="flex-nowrap overflow-x-auto">
@@ -13,7 +13,7 @@ const NoveltySec = () => {
             <img
               src="/images/1a.png"
               alt="Immagine Playlist1"
-              className="w-100"
+              className="w-100 rounded-3"
             />
           </Col>
           <Col>
@@ -22,7 +22,7 @@ const NoveltySec = () => {
             <img
               src="/images/1b.png"
               alt="Immagine Playlist2"
-              className="w-100"
+              className="w-100 rounded-3"
             />
           </Col>
           <Col>
@@ -31,7 +31,7 @@ const NoveltySec = () => {
             <img
               src="/images/1c.png"
               alt="Immagine Playlist2"
-              className="w-100"
+              className="w-100 rounded-3"
             />
           </Col>
         </Row>
