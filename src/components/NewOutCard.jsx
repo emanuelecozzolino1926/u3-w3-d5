@@ -9,8 +9,10 @@ const NewOutCard = (props) => {
           src={props.song.album.cover_medium}
           className="rounded-3"
         />
-        <Card.Text className="text-white m-0">{props.song.title}</Card.Text>
-        <Card.Text className="text-white m-0">
+        <Card.Text className="text-white m-0 song-title">
+          {props.song.title}
+        </Card.Text>
+        <Card.Text className="text-white m-0 song-title">
           {props.song.artist.name}
         </Card.Text>
       </Card>

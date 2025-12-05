@@ -3,13 +3,15 @@ import { Col, Container, Row } from "react-bootstrap";
 const NoveltySec = () => {
   return (
     <>
-      <Container fluid className="my-3 text-white">
+      <Container fluid className="my-3 text-white mb-5">
         <h1>Novità</h1>
         <hr />
         <Row xs={2} className="flex-nowrap overflow-x-auto">
           <Col>
-            <p>NUOVA STAZIONE RADIO</p>
-            <p>Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill</p>
+            <p className="nov-t m-0">NUOVA STAZIONE RADIO</p>
+            <p className="nov-d ">
+              Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill
+            </p>
             <img
               src="/images/1a.png"
               alt="Immagine Playlist1"
@@ -17,8 +19,8 @@ const NoveltySec = () => {
             />
           </Col>
           <Col>
-            <p>NUOVA STAZIONE RADIO</p>
-            <p>Ecco la nuoca casa della musica latina</p>
+            <p className="nov-t m-0">NUOVA STAZIONE RADIO</p>
+            <p className="nov-d ">Ecco la nuoca casa della musica latina</p>
             <img
               src="/images/1b.png"
               alt="Immagine Playlist2"
@@ -26,8 +28,8 @@ const NoveltySec = () => {
             />
           </Col>
           <Col>
-            <p>NUOVA STAZIONE RADIO</p>
-            <p>Ecco la nuoca casa della musica latina</p>
+            <p className="nov-t m-0">NUOVA STAZIONE RADIO</p>
+            <p className="nov-d">Ecco la nuoca casa della musica latina</p>
             <img
               src="/images/1c.png"
               alt="Immagine Playlist2"
