@@ -1,4 +1,4 @@
-import { Container, Card, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import NewOutCard from "./NewOutCard";
 
@@ -20,7 +20,7 @@ const NewOut = () => {
         }
       })
       .then((data) => {
-        setSongs(data.data.slice(0, 6));
+        setSongs(data.data.slice(0, 10));
       })
       .catch((error) => {
         console.log(`Impossibile accedere al server ${error}`);
@@ -33,9 +33,19 @@ const NewOut = () => {
 
   return (
     <>
-      <Container>
-        <Row xs={3}>
-          <NewOutCard songs={songs} />
+      <Container fluid>
+        <Row xs={3} lg={5}>
+          {songs.map((song, i) => {
+            let displayClass = "";
+            if (i >= 6) {
+              displayClass = "d-none d-md-block";
+            }
+            return (
+              <Col key={i} className={displayClass}>
+                <NewOutCard song={song} />
+              </Col>
+            );
+          })}
         </Row>
       </Container>
     </>
