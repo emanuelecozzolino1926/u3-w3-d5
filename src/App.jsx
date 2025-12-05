@@ -4,6 +4,7 @@ import "./App.css";
 import MobileNavBar from "./components/MobileNavBar";
 import NoveltySec from "./components/NoveltySec";
 import NewRadio from "./components/NewRadio.";
+import NewOut from "./components/NewOut";
 import OtherSec from "./components/OtherSec";
 import Footer from "./components/Footer";
 
@@ -13,6 +14,7 @@ function App() {
       <MobileNavBar />
       <NoveltySec />
       <NewRadio />
+      <NewOut />
       <OtherSec />
       <Footer />
     </>
