@@ -3,7 +3,7 @@ import { Card, Col } from "react-bootstrap";
 const NewOutCard = (props) => {
   return (
     <>
-      <Card className="border-0 card-bg">
+      <Card className="border-0 card-bg my-3">
         <Card.Img
           variant="top"
           src={props.song.album.cover_medium}

@@ -12,7 +12,7 @@ html,
 }
 
 .nov-d {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .song-title {
@@ -30,4 +30,13 @@ html,
 
 .footer-small {
   color: #888;
+}
+
+.nav-Desk {
+  font-size: 20px;
+}
+
+.form-control::placeholder {
+  color: white !important;
+  opacity: 1;
 }

@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-secondary py-4">
+    <footer className="bg-dark text-secondary py-4 w-100">
       <Container fluid className="px-4 small">
         <div className="d-flex flex-wrap gap-2 mb-3">
           <span className="text-white">Italia</span>
@@ -13,7 +13,7 @@ const Footer = () => {
           i diritti riservati.
         </p>
 
-        <Row>
+        <Row xs={1}>
           <Col>
             <div className="d-flex flex-wrap small">
               <a

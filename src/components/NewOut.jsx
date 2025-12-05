@@ -35,7 +35,7 @@ const NewOut = () => {
     <>
       <Container fluid>
         <h2 className="mb-3 text-white">Nuove uscite &gt;</h2>
-        <Row xs={3} lg={5}>
+        <Row xs={3} md={5}>
           {songs.map((song, i) => {
             let displayClass = "";
             if (i >= 6) {
